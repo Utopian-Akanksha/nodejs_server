@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
+const env= "mongodb+srv://akanksha:naDknUDyQixtavEs@cluster0.6rwfwof.mongodb.net/bugs?retryWrites=true&w=majority"
+
 module.exports=()=>{
     const connectionParams={
         useNewUrlParser:true,
